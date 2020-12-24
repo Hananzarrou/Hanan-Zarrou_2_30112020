@@ -1,0 +1,106 @@
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+    /*height: 70%;*/    
+}
+
+.article1{
+    /*display:flex;*/
+    text-align: justify;
+    border-radius: 1%;
+    /*flex-direction: column;*/
+    /*align-content: space-around;*/
+    /*flex-wrap:wrap ;*/
+    margin-right: 20px;
+    flex: 3;
+    background-color:#F2F2F2;
+    justify-content: flex-start;
+    margin-left: 20px;  
+    height:60%; 
+}
+.line1{
+    display:flex;
+    margin: 3px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 15px;
+}
+.photo_etoile{
+margin:2px;
+padding:2px;
+margin-left: 12px;
+}
+.line2{
+    display:flex;
+    margin:20px;
+    justify-content: space-around;
+    margin-top:1%;
+}
+.line3{
+    display:flex;
+    margin:20px;
+    justify-content: space-around; 
+    /*margin-top:-40px;*/ 
+}
+.line4{
+    display:flex;
+    margin:20px;
+    /*margin-top:-200px*/   
+}
+.text_bas{
+    margin-left:20px;
+    margin-top: 20px;
+}
+.accomodation {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 180px;
+    width: 30%;
+    margin:6px;
+    padding:1px;
+    border-color: rgb(87, 84, 84);
+    border-radius: 31px;
+    background-color: white;
+    font-style: bold;
+}
+.img_col{
+display:flex;
+flex-direction: column;
+}
+
+.accomodation img{
+    width: 96%;
+    height: 40%;
+   border-radius: 31px;
+    padding: 5px;
+    margin-right: -1px;
+    border: none;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-top: -1px;
+    margin-left: -1px;  
+}
+.hm img{
+    height:30%;
+}
+.ha img{
+    height:20%;
+}
+.contenair1{
+    margin:2px;
+    padding:2px;
+    margin-left: 12px;
+    font-weight: bold;   
+}
+.contenair1_text{
+    font-size:small;
+    color:gray;
+    margin:2px;
+    padding: 2px;
+    margin-left: 12px;
+}

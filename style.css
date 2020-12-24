@@ -1,34 +1,17 @@
 /* Définition des polices personnalisées */
-
-@font-face
-{
-    font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face
-{
-    font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 /* Eléments principaux de la page */
 body
 {
     
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #181818;
+
+}
+.white{
+    color:#0065FC;
+}
+.color{
+    color:#0065FC;
 }
 
 #bloc_page
@@ -38,156 +21,22 @@ body
 }
 section h1, footer h1, nav 
 {
-    font-family: Dayrom, serif;
+    
     font-weight: normal;
     text-transform: capitalize;
 }
-/* Header */
+ 
 
-/*header
-{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 95%;
-    margin: auto;
 
-}*/
 #titre_principal
 {
     display: flex;
     flex-direction: column;
 
 }
-/*#titre_principal >div{
-    margin:10px;
-    text-align: center;
-    padding: 20px;
-    line-height: 30px;
-    width: 60%;
-}*/
-#rechercher{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-  
-    
-    
-}
-
-#monbloc h1{
-    border: solid;
-    border-color:#F2F2F2;
-    background-color:white;
-    padding:10px;
-    font-size: 1em;
-    text-align: left;
-   line-height: normal;
-    
-
-}
-#monautrebloc h1{
-    
-    border-color: gray;
-    background-color: #0065FC;
-    padding:10px;
-    font-size: 1em;
-    border: 2px solid rgb(243, 233, 233);
-    
-    border-top-right-radius: 2.5em 5em;
-    border-bottom-right-radius: 2.5em 5em;  
-}
-#Filtres{
-    flex-direction: row;
-    display:flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-.filt{
-    margin-right:23px;
-}
 
 
 
-#fileco{
-    display:flex;
-    flex-direction: row;
-    border: 2px solid #F2F2F2;
-    
-    border-top-right-radius: 5em 5em;
-    border-bottom-right-radius: 5em 5em;
-    border-top-left-radius: 5em 5em;
-    border-bottom-left-radius: 5em 5em; 
-    margin-right:23px;
-    width: 170px;
-    line-height: 20px;
-    text-align: center;
-
-}
-
-
-    
-
-
-#filefamili{
-    display:flex;
-    flex-direction: row;
-    border: 2px solid #F2F2F2;
-    
-    border-top-right-radius: 5em 5em;
-    border-bottom-right-radius: 5em 5em;
-    border-top-left-radius: 5em 5em;
-    border-bottom-left-radius: 5em 5em;
-    margin-right:23px; 
-    width: 150px;
-    text-align: center;  
-}
-#fileroman{
-    display:flex;
-    flex-direction: row;
-    border: 2px solid #F2F2F2;
-    
-    border-top-right-radius: 5em 5em;
-    border-bottom-right-radius: 5em 5em;
-    border-top-left-radius: 5em 5em;
-    border-bottom-left-radius: 5em 5em;
-    margin-right:23px;
-    width: 150px;
-    text-align: center;     
-}
-#fileanimau{
-    display:flex;
-    flex-direction: row;
-    border: 2px solid #F2F2F2;
-    
-    border-top-right-radius: 5em 5em;
-    border-bottom-right-radius: 5em 5em;
-    border-top-left-radius: 5em 5em;
-    border-bottom-left-radius: 5em 5em;
-    width: 190px; 
-    text-align: center;       
-}
-#descrp_image{
-    flex-direction: row;
-    display:flex;
-    justify-content: flex-start; 
-    align-items: flex-start;
-    flex-wrap: wrap;
-    
-}
-#descrp_image img{
-    width: 15px;
-    height: 15px;
-    border-radius:31px;
-    border:solid;
-    border-color:#F2F2F2 ;
-   
-    background-color: #DEEBFF; 
-    margin-right: 13px; 
-}
     
 #logo
 {
@@ -197,13 +46,13 @@ section h1, footer h1, nav
 } 
 #logo img
 {
-    width: 70px;
-    height: 60px;
+    /*width: 70px;*/
+    height: 39px;
 }
 
 header h1
 {
-    font-family: 'BallparkWeiner', serif;
+     
     font-size: 1.1em;
     font-weight: bold;
     margin: 0 0 0 0px;
@@ -211,7 +60,7 @@ header h1
 }
 header h2
 {
-    font-family: Dayrom, serif;
+     
     font-size: 1em;
     margin-top: 0px;
     font-weight: normal;
@@ -247,318 +96,44 @@ strong{
 }
 #titre_nav{
     display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-
-}
-#rechercher img{
-    width: 25px;
-    height: 25px;
-    background-color: #F2F2F2;
-    border: 2px solid rgb(243, 233, 233);
-    
-    border-top-left-radius: 2em 5em;
-    border-bottom-left-radius: 2em 5em; 
-    /*is equivalent to:
-    border-top-right-radius: 2em 5em;
-    border-bottom-right-radius: 2em 5em;
-    */
-    padding: 8px;
-}
-#fileco img{
-    width: 15px;
-    height: 15px;
-    border-radius:31px;
-    border:solid;
-    border-color:#F2F2F2 ;
-    padding: 10px;
-    background-color: #DEEBFF;
-}
-#filefamili img{
-    width: 15px;
-    height: 15px;
-    border-radius:31px;
-    border:solid;
-    border-color:#F2F2F2 ;
-    padding: 10px;
-    background-color: #DEEBFF; 
-}
-#fileroman img{
-    width: 15px;
-    height: 15px;
-    border-radius:31px;
-    border:solid;
-    border-color:#F2F2F2 ;
-    padding: 10px;
-    background-color: #DEEBFF;  
-}
-#fileanimau img{
-    width: 15px;
-    height: 15px;
-    border-radius:31px;
-    border:solid;
-    border-color:#F2F2F2 ;
-    padding: 10px;
-    background-color: #DEEBFF;   
-}
-
-/* Corps */
-
-section
-{
-    display: flex;
-    margin-bottom: 20px;
-    
-    
-}
-
-article{
-    display:flex;
-
-    text-align: justify;
-    border-radius: 1%;
-    flex-direction: row;
-    align-content: space-around;
-    flex-wrap:wrap ;
-}
-aside{
-
-}
-
-article{
-    
-
-    margin-right: 20px;
-    flex: 3;
-    background-color:#F2F2F2;
    
+   /*align-content: flex-end*/
+
+}
+.size{
+    size:small;
+}
+
+
+
+
+
+p#hebm{
+    font-weight:bold;
+    
     margin-left: 20px;
-}
-#auberge_image {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 30%;
-    height: 20%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;
+    margin-top:-51px;
+    width:22px;
     
+}
+h4{
+    color:black;
+    /*text-shadow: black;*/
+}
+p{
+    margin:5px;
+    font-size: small;
+    color:gray;
+    margin-top:-16px
 }
 
 
-#auberge_image img{
-    width: 60%;
-    height: 40%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;
-    
-}
-#hotel_port{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;  
-}
-#hotel_port img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;
-    
-}
-#hotel_mouettes{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;    
-}
-#hotel_mouettes img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px; 
-}
-#hotel_mer{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;    
-}
-#hotel_mer img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;    
-}
-#auberg_panier{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;    
-}
-#auberg_panier img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;      
-}
-#hotel_amina{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;      
-}
-#hotel_amina img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px; 
-}
 
-aside
-{
-    flex: 1.2;
-    position: relative;
-    background-color:#F2F2F2;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-    padding: 10px;
-    color: black;
-    font-size: 0.9em;
-}
-#hotl_sol{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;       
-}
-#hotl_sol img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;    
-}
-#cham_hot{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;       
-}
-#cham_hot img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;      
-}
-#hot_blanbleu{
-    width: 20%;
-    height: 6%;
-    margin:10px;
-    padding:1px;
-    border-style: solid;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color: white;
-    font-style: bold;          
-}
-#hot_blanbleu img{
-    width: 90%;
-    height: 54%;
-    margin:10px;
-    padding:5px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 31px;    
-}
 
 
 /* Footer */
 
-footer
-{
-    position:relative;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 25px;
-    
-    background-color: #F2F2F2;
-    /*justify-content: flex-start;*/
-    align-items: flex-start;
-    width: 100%;
-    margin: auto;    
-}
-footer h2
-{
-    font-family: Dayrom, serif;
-    font-size: 1em;
-    margin-top: 0px;
-    font-weight: normal;
-    color:gray;
-}
+
 
 footer h1
 {

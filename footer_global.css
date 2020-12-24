@@ -1,0 +1,33 @@
+/* Footer */
+
+.footer1
+{
+   
+    display: flex;
+    justify-content: flex-start;
+ 
+    padding-top: 25px;
+    
+    
+    background-color: #F2F2F2;
+       
+}
+.footer_global{
+    
+}
+.footer_text{
+    margin-right: 160px;
+    padding: 31px;
+}
+.strfoo{
+   margin:14px;
+}
+.fo{
+    
+    margin-left: 12px;
+}
+
+
+
+
+

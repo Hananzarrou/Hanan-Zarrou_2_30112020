@@ -1,0 +1,23 @@
+.info_bar{
+display:flex;
+}
+.info_icon{
+display:flex;
+justify-content:center;
+align-items: center;
+width: 13px;
+border-radius:31px;
+border:solid;
+border-color:#F2F2F2 ;
+background-color: none; 
+margin-right: 13px; 
+padding:5px;
+} 
+.info_text{
+    color:gray;
+    padding: 5px;
+
+} 
+
+
+

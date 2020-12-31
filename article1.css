@@ -33,6 +33,7 @@ section
 margin:2px;
 padding:2px;
 margin-left: 12px;
+font-size:small;
 }
 .line2{
     display:flex;
@@ -78,12 +79,12 @@ flex-direction: column;
     height: 40%;
    border-radius: 31px;
     padding: 5px;
-    margin-right: -1px;
+    /*margin-right: -1px;*/
     border: none;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
-    margin-top: -1px;
-    margin-left: -1px;  
+    /*margin-top: -1px;
+    margin-left: -1px;*/  
 }
 .hm img{
     height:30%;
@@ -103,4 +104,91 @@ flex-direction: column;
     margin:2px;
     padding: 2px;
     margin-left: 12px;
+}
+@media screen and (max-width: 780px){
+    .article1{
+        display:flex;
+        flex-direction:column;
+        background-color:white;
+        border:0; 
+        margin-bottom:10px;   
+    }
+    .accomodation{
+      flex:50%;
+      justify-content: center;
+      margin-bottom:50px;
+    }
+    .img_col{
+        width:110%;
+        height:210px;
+        box-shadow:2px 2px 10px 3px #F2F2F2;
+        padding:2px;
+        /*border:solid;*/
+        margin:40px;
+        margin-bottom: 10px;
+        margin-left:-27px;
+        border-bottom-left-radius:31px;
+        border-bottom-right-radius:31px;
+        /*border-bottom:white*/
+        border-color:#F2F2F2;
+        border-radius: 31px;     
+    }
+    .accomodation img{
+        width: 98%;
+        height: 62%;
+       border-radius: 31px;
+        padding: 5px;
+        margin-top:2px;
+        margin-bottom:0px;
+        /*margin-right: -1px;*/
+        border: none;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+          
+    }
+    .line3{
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:-10px;
+
+    }
+    .line4{
+        margin-top:-30px;
+        font-weight:bold;
+    }
+    .contenair1{
+        margin-top:7px;
+    }
+    .photo_etoile{
+        margin-bottom:11px;
+    }
+    .text_bas {
+        margin-left:-9px;
+    }
+    .col1{
+        display:flex;
+       flex-direction:column;  
+        /*margin-top:-10px;*/
+      }
+      .col{
+        display:flex;
+        flex-direction:column;   
+    }
+    .colmobil{
+     margin-top:-10px;   
+    }
+    .contenair1{
+        width:180px;
+        /*margin-top:-5px;*/
+    }
+    .line3{
+        
+    }
+    .line2{
+        display:flex;
+        flex-wrap:wrap;
+        /*flex-direction:column;
+        width:400px;*/
+    } 
+      
 }

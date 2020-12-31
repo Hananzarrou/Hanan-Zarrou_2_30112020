@@ -1,9 +1,5 @@
 
-.line2a{
-    display:flex;
 
-
-}
 .bloc{
     display:flex;
     /*margin:20px;*/
@@ -38,7 +34,7 @@
     flex-direction: column;
     justify-content: flex-start;
     height: 355px;
-    width: 145%;
+    width: 163%;
     margin:6px;
     padding:1px;
     border-color: rgb(87, 84, 84);
@@ -87,6 +83,11 @@
     font-style: bold;
     box-shadow:3px 3px 4px 4px #F2F2F2; 
 }
+.activit_center{
+    display:flex;
+    flex-direction: column;
+    
+}
 .acc{
     width: 92%;
 }
@@ -101,4 +102,52 @@
     border-bottom-left-radius: 2px;
     /*margin-top: -1px;
     margin-left: -1px; */   
+}
+@media screen and (max-width: 780px){
+    .line2a{
+        flex-direction:column;
+        justify-content: center;
+    } 
+    .bloc{
+        /*flex-direction: column;*/
+        flex-wrap:wrap;
+        width:100%;
+        justify-content: center;
+    } 
+
+    .activit_left{
+      display:flex;
+      /*flex-wrap:wrap;*/
+      flex:50%;
+      width:65%;
+      height:190px;
+      margin:10px;
+      /*justify-content: center;*/
+
+    }
+    .activit_left img{
+        height: 137px;
+        width:98%;
+    }
+    .activit_center{
+        display:flex;
+        /*flex-direction: column;*/
+        flex:50%;
+        /*width:99%;*/
+    }
+    .center{
+        height: 185px;
+        width: 96%;
+       /* justify-content: center;*/
+       margin-left:10px;
+        
+    }
+    .center img{
+       width:98%; 
+    }
+
+    .activit_text{
+        margin-top:5px;
+    }
+    
 }

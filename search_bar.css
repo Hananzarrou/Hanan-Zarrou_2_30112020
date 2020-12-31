@@ -23,5 +23,27 @@
     background-color:#0065FC;
     width: 100px;
 }
+.search{
+    display:none;
+}
+
+@media screen and (max-width: 780px){
+    /*.search_bar{
+        margin-left: 30px;
+    }*/
+    .search_bar button{
+        display:none;
+    }
+    .search{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#0065FC;
+        width: 35px;
+        /*border-radius: 5px;*/
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }  
+}
 
 

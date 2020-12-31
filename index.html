@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="search_bar.css" />
     <link rel="stylesheet" href="filters_bar.css" />
     <link rel="stylesheet" href="info_bar.css" />
@@ -10,6 +12,7 @@
     <link rel="stylesheet" href="aside1.css" />
     <link rel="stylesheet" href="activity.css" />
     <link rel="stylesheet" href="footer_global.css" />
+    <!--<link rel="stylesheet" media="all end"(max-width:1024px) href="small_resolution.css"/>-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/3d8600bd75.js" crossorigin="anonymous"></script>
@@ -17,23 +20,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <header>
-    <div id="titre_nav">
-        <div id="titre_principal">
-            <div id="logo">
-            <img src="Reservia.png" alt="Logo de Reservia" /><br><br>
-            <h1>Trouvez votre hébergment pour des vacances de rêves</h1>    
+    
+        <div class="titre_principal">
+            <div class="logo" >
+                <img src="Reservia.png" alt="Logo de Reservia" /><br><br>
+                 
             </div>
-            <h2>En plein centre ville ou en plein nature</h2>
-
-            <div class="search_bar">
-                <div class="localisation">
-                <i class="fas fa-map-marker-alt"></i>
-            </div>
-                <input type="text" value="Marseille, France"></input>
-                <button>Rechercher</button>         
-            </div><br>
+            <nav>
+                <ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#"><strong>Activités</strong></a></li>
+                    <li><a href="#">S'inscrire</a></li>
                 
-            <div class="filters_bar">
+                </ul>
+            </nav>
+        </div>   
+</header><br><br>
+
+<body>
+    <section>
+            <article class="articl">
+                <h1>Trouvez votre hébergment pour des vacances de rêves</h1>   
+                <h2>En plein centre ville ou en plein nature</h2>
+
+                <div class="search_bar">
+                    <div class="localisation">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <input type="text" value="Marseille, France"></input>
+                    <button>Rechercher</button>
+                    <div class="search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                
+                
+                <br>
+                
+                <div class="filters_bar" >
                 <div class="filters_text">
                     <strong>Filtres</strong>   
                 </div>
@@ -74,42 +98,31 @@
                         <strong>Animaux autorisés </strong>
                     </button><br><br>
                 </div>
-            </div><br><br> 
+                </div><br><br> 
 
-            <div class="info_bar">
+                <div class="info_bar" >
                 <div class="info_icon">
                     <i class="fas fa-info color"></i>
                 </div>
                 <div class="info_text">
                     Plus de 500 logements sont disponible dans cette ville
                 </div>   
-            </div>
-        </div>
-           
-        <nav>
-                <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#"><strong>Activités</strong></a></li>
-                    <li><a href="#">S'inscrire</a></li>
-                
-                </ul>
-        </nav>
-    </div>
-</header><br><br>
-<body>
-    <div id="bloc_page">
+                </div>
+            </article>
+    </section>
+    <div class="bloc_page">
         <section>
             <article class="article1">
                 <div class="line1">
                     Hébergements à Marseille
                 </div>
                 <div class="line2">
-                    <div class="accomodation">
+                <div class="accomodation">
                         <div class="img_col">
                             <img src="auber_canne.jpg"alt= ""/>
-                            <div class="col1">
+                            <div class="col1 colmobil">
                                 <div class="contenair1">Auberge la cannebière</div>
-                                <div class="contenair1_text">Nuit à partir de 25£</div>
+                                <div class="contenair1_text">Nuit à partir de<strong>25£</strong> </div>
                                 <div class="photo_etoile">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -119,14 +132,14 @@
                                 </div>
                             </div>
                         </div>    
-                    </div>
+                </div>    
                 
-                    <div class="accomodation">
+                <div class="accomodation">
                         <div class="img_col">
                             <img src="hotel_port.jpg"alt= ""/>
-                            <div class="col">
+                            <div class="col colmobil">
                                 <div class="contenair1">Hôtel du Port</div>
-                                <div class="contenair1_text">Nuit à partir de 52£</div>
+                                <div class="contenair1_text">Nuit à partir de <strong>52£</strong></div>
                                 <div class="photo_etoile">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -136,14 +149,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                </div>
 
-                    <div class="accomodation">
+                <div class="accomodation">
                         <div class="img_col">
                             <img src="hotel_mouet.jpg"alt= ""/>
-                            <div class="col">
+                            <div class="col colmobil">
                                 <div class="contenair1">Hôtel les mouettes</div>
-                                <div class="contenair1_text">Nuit à partir de 76£</div>
+                                <div class="contenair1_text">Nuit à partir de <strong>76£</strong> </div>
                                 <div class="photo_etoile">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -154,16 +167,16 @@
                             </div>
                         
                         </div>
-                    </div>
+                </div>
                 </div>
 
                 <div class="line3">
-                    <div class="accomodation hm">
+                <div class="accomodation hm">
                         <div class="img_col">
                             <img src="hotel_mer.jpg"alt= ""/>
-                            <div class="col">
+                            <div class="col colmobil">
                                 <div class="contenair1">Hôtel de La mer</div>
-                                <div class="contenair1_text">Nuit à partir de 46£</div>
+                                <div class="contenair1_text">Nuit à partir de <strong>46£</strong></div>
                                 <div class="photo_etoile">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -173,14 +186,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                </div>
 
-                    <div class="accomodation">
+                <div class="accomodation">
                         <div class="img_col">
                             <img src="aubeg_panier.jpg"alt=""/>
-                            <div class="col">
+                            <div class="col colmobil">
                                 <div class="contenair1">Auberge Le Panier</div>
-                                <div class="contenair1_text">Nuit à partir de 23£</div>
+                                <div class="contenair1_text">Nuit à partir de<strong>23£</strong> </div>
                                 <div class="photo_etoile">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -190,14 +203,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                </div>
 
-                    <div class="accomodation ha">
+                <div class="accomodation ha">
                         <div class="img_col">
                             <img src="hotel_amina.jpg"alt= ""/>
-                            <div class="col">
+                            <div class="col colmobil">
                                 <div class="contenair1">Hôtel chez Amina</div>
-                                <div class="contenair1_text">Nuit à partir de 96£</div>
+                                <div class="contenair1_text">Nuit à partir de<strong>96£</strong> </div>
                                 <div class="photo_etoile">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -207,7 +220,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                </div>
                 </div>
                 <div class="line4">
                     <div class="text_bas">
@@ -233,7 +246,7 @@
                             
                             <div class="col1">
                                 <div class="contenair1">Hôtel le soleil du matin</div>
-                                <div class="contenair1_text">Nuit à partir de 128£</div>
+                                <div class="contenair1_text">Nuit à partir de 128<strong>£</strong></div>
                                 <div class="photo_etoile spc">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -251,7 +264,7 @@
                             <img src="coeur_eau.jpg"alt= ""/>
                             <div class="col1">
                                 <div class="contenair1">Au coeur de l'eau <br/>Chambres d'hôtes</div>
-                                <div class="contenair1_text">Nuit à partir de 71£</div>
+                                <div class="contenair1_text">Nuit à partir de 71<strong>£</strong></div>
                                 <div class="photo_etoile spc">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -269,7 +282,7 @@
                             <img src="hotel_bleu_blanc.jpg"alt= ""/>
                             <div class="col1">
                                 <div class="contenair1">Hôtel Tout Blanc et Bleu</div>
-                                <div class="contenair1_text">Nuit à partir de 68£</div>
+                                <div class="contenair1_text">Nuit à partir de 68<strong>£</strong></div>
                                 <div class="photo_etoile spc">
                                     <i class="fas fa-star white"></i>
                                     <i class="fas fa-star white"></i>
@@ -293,7 +306,7 @@
                 <div class="line2a">
                     <div class="bloc">
                         <div class="activit_left">
-                            <img src="vieuxport.jpg"alt=""/>
+                            <img src="vieuxport.jpg"alt= "" />
                             <div class="activit_text actilef">
                             vieux port 
                             </div> 
@@ -308,7 +321,7 @@
                             </div>
 
                             <div class="center">
-                            <img src="ilesfriol.jpg"alt= "" />
+                                <img src="ilesfriol.jpg"alt= "" />
                             <div class="activit_text">
                                 îles du Friol
                             </div>   
@@ -316,8 +329,8 @@
                         </div>
                     </div>
                     <div class="bloc">
-                        <div class="activit_left ntd">
-                            <img src="parcnational.jpg"alt=""/>
+                        <div class="activit_left">
+                            <img src="parcnational.jpg"alt= "" />
                             <div class="activit_text actilef">
                                 Parc national des Calanques 
                             </div>

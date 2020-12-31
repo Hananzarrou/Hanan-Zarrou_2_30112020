@@ -1,3 +1,4 @@
+
 /* Définition des polices personnalisées */
 /* Eléments principaux de la page */
 body
@@ -7,14 +8,16 @@ body
     color: #181818;
 
 }
+section{
+    display:flex;
+}
 .white{
     color:#0065FC;
 }
 .color{
     color:#0065FC;
 }
-
-#bloc_page
+.bloc_page
 {
     width: 95%;
     margin: auto;
@@ -25,81 +28,52 @@ section h1, footer h1, nav
     font-weight: normal;
     text-transform: capitalize;
 }
- 
-
-
-#titre_principal
+.titre_principal
 {
     display: flex;
-    flex-direction: column;
-
-}
-
-
-
+    /*flex-direction: column;*/
     
-#logo
+
+}    
+.logo
 {
     display: flex;
     flex-direction: column;
     align-items: baseline;
 } 
-#logo img
+.logo img
 {
     /*width: 70px;*/
     height: 39px;
 }
-
-header h1
+ h1
 {
      
     font-size: 1.1em;
     font-weight: bold;
-    margin: 0 0 0 0px;
-    
+    /*margin: 0 0 0 0px;*/
+    text-shadow:#F2F2F2;
 }
-header h2
+ h2
 {
      
     font-size: 1em;
     margin-top: 0px;
     font-weight: normal;
     color:gray;
+    text-shadow:#F2F2F2;
     
 }
-/* Navigation */
-
-nav ul
-{
-    list-style-type: none;
-    display: flex;   
+.articl{
+    display:flex;
+    flex-direction:column;
+    margin-top:-60px;
 }
 
-nav li
-{
-    margin-right: 75px;   
-}
-nav a
-{
-    font-size: 1em;
-    color:#0065FC;
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-nav a:hover
-{
-    color: #cac6c6;
-    border-bottom: 3px solid #756e6e;
-}
 strong{
     color: black;
 }
-#titre_nav{
-    display:flex;
-   
-   /*align-content: flex-end*/
 
-}
 .size{
     size:small;
 }
@@ -108,38 +82,16 @@ strong{
 
 
 
-p#hebm{
-    font-weight:bold;
+
+
+
+
+
+
+
+
+
     
-    margin-left: 20px;
-    margin-top:-51px;
-    width:22px;
-    
-}
-h4{
-    color:black;
-    /*text-shadow: black;*/
-}
-p{
-    margin:5px;
-    font-size: small;
-    color:gray;
-    margin-top:-16px
-}
-
-
-
-
-
-/* Footer */
-
-
-
-footer h1
-{
-    font-size: 1em;
-
-}
 
 
 

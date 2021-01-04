@@ -39,11 +39,11 @@
     justify-content: space-around;
     margin:20px;
 }
-.line2a{
+/*.line2a{
     display:flex;
 
 
-}
+}*/
 .line3_as{
     margin-top:20px;
 
@@ -75,6 +75,15 @@
         margin-bottom:3px;
         border:0;
         box-shadow: none;
+    }
+    .line1_as{
+        margin-left:-70px;
+        font-size: 1.4em;
+        font-weight: bold;
+        text-shadow: 0.5px 0.5px black;
+    }
+    .imgfleche{
+        margin-left:0px;
     }
     
 }

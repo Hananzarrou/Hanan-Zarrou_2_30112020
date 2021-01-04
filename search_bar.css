@@ -28,9 +28,7 @@
 }
 
 @media screen and (max-width: 780px){
-    /*.search_bar{
-        margin-left: 30px;
-    }*/
+    
     .search_bar button{
         display:none;
     }
@@ -43,7 +41,30 @@
         /*border-radius: 5px;*/
         border-top-right-radius: 1em;
         border-bottom-right-radius: 1em;
-    }  
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+    } 
+    .search_bar{
+        justify-content: center;
+        align-items:center;
+    } 
+    .localisation{
+        width:42px;
+        height: 45px;
+    }
+    .search{
+        height: 45px;
+        width:47px;
+        
+    }
+    .search_bar input{
+        font-weight: bold;
+        margin-right:-10px;
+        width:250px;
+        border:solid 1px #F2F2F2;
+        
+        
+    }
 }
 
 

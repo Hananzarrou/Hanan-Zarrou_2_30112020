@@ -1,26 +1,62 @@
 
 
-.bloc{
-    display:flex;
-    /*margin:20px;*/
-    
+.blocA{
+    display:flex;    
 }
-.activit_center{
-    display:flex;
-    flex-direction:column;
-    /*margin-left:40px;*/
+.blocB{
+    display:flex; 
+    margin-left:7%;  
 }
-/*.left{
-    margin-left:40px;
-}*/
+.partie1{
+    width:236px;
+    height:87%;
+    margin-right: 1px;
+    margin-bottom: 0px;
+    border-radius: 31px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    box-shadow: #F2F2F2 1px 2px 2px 1px;
+}
+
+.partie2{
+    height:90%;
+    width: 250px;
+    margin-right:7px;
+    margin-bottom:10px;
+    border-radius: 31px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    box-shadow: #F2F2F2 2px 2px 2px 2px;   
+}
+
+.activit_center1{
+    margin-left: 31px;
+    margin-right: 80px;
+    width: 23%;
+    height: 56%;
+}
+.activit_center2{
+    margin-left:31px;
+    margin-right:67px;
+    width:22%;
+    height: 71%;   
+}
+
 .line1{
     display:flex;
-    /*margin: 3px;*/
     padding: 10px;
     font-weight: bold;
-    /*margin-top: 2%;*/
-    /*margin-left: 20px;*/
     margin:2% 0px 5px 20px;
+}
+.line2a{
+    display:flex;
+    flex:100%;
+    width:100%;
+    justify-content: space-between;
 }
 
 .activity{
@@ -30,27 +66,10 @@
     margin-bottom: 30px;
 }
 .activit_left {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 355px;
-    width: 163%;
-    margin:6px;
-    padding:1px;
-    border-color: rgb(87, 84, 84);
-    border-radius: 31px;
-    background-color:white;
-    font-style: bold;
-    margin-left:20px;
-    box-shadow:3px 3px 4px 4px #F2F2F2; 
-}
-.ntd{
-    width: 163%;
-}
-
-.activit_left img{
-    width: 96%;
-    height: 81%;
+    background-position: center;
+    background-size: cover; 
+    width: 96.4%;
+    height: 87%;
    border-radius: 31px;
     padding: 5px;
     margin-right: -1px;
@@ -60,94 +79,140 @@
     margin-top: -1px;
     margin-left: -1px;  
 }
+.un{
+    background-image: url("vieuxport.jpg");
+}
+.deux{
+    background-image: url("parcnational.jpg");
+    
+}
+
+.ntd{
+    /*width: 163%;*/
+}
+
+
 .activit_text{
     font-weight: bold;
     margin-left:20px;
-    margin-top:10px;
 }
 .actilef{
-    margin-top:25px;   
+    margin-top:11px;   
 }
 .center{
+    background-position: center;
+    background-size: cover; 
+    /*border:solid black;*/
+    height: 114px;
+    justify-content: space-between;
+    width: 101%;
     display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 171px;
-    width: 85%;
-    margin:6px;
-    margin-left:29px;
-    padding:1px;
-    border-color: rgb(87, 84, 84);
     border-radius: 31px;
-    background-color:white;
-    font-style: bold;
-    box-shadow:3px 3px 4px 4px #F2F2F2; 
-}
-.activit_center{
-    display:flex;
-    flex-direction: column;
-    
-}
-.acc{
-    width: 92%;
-}
-.center img{
-    width: 96%;
-    height: 73%;
-   border-radius: 31px;
-    padding: 5px;
-    margin-right: -1px;
-    border: none;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
-    /*margin-top: -1px;
-    margin-left: -1px; */   
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
 }
+.milieu{
+    width: 210%;
+    height: 158px;
+    border: solid rgb(242 242 242);
+    margin-bottom: 55px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    box-shadow: #F2F2F2 2px 2px 2px 2px;
+    margin-right: 66px;
+    margin-left: 20px; 
+}
+
+.one{
+    background-image:url("fortpomeg.jpg");
+    margin-bottom:20px;
+}
+.two{
+    background-image:url("ilesfriol.jpg");
+    margin-bottom:20px;  
+}
+.acc{
+    background-image:url("notredame.jpg");
+    margin-bottom:20px;
+   
+}
+.acd{
+    background-image:url("parclongcha.jpg");
+    margin-bottom:20px; 
+}
+
 @media screen and (max-width: 780px){
     .line2a{
         flex-direction:column;
         justify-content: center;
     } 
-    .bloc{
-        /*flex-direction: column;*/
-        flex-wrap:wrap;
+    .line1{
+        margin:2% 0px 17px 43px;
+        font-size: 1.4em;
+    }
+    .blocA{
+        flex-direction: column;
         width:100%;
         justify-content: center;
     } 
-
+    .blocB{
+        flex-direction: column;
+        width:100%;
+        justify-content: center;  
+    }
+    .partie1{
+        margin-left:40px;
+        width:83%;
+        height:197px;
+        margin-bottom:21px;
+    }
+    .partie2{
+        Width:83%;
+        height:197px;
+        margin-left:20px;
+        margin-bottom:-15px;
+        
+    }
     .activit_left{
-      display:flex;
-      /*flex-wrap:wrap;*/
-      flex:50%;
-      width:65%;
-      height:190px;
-      margin:10px;
-      /*justify-content: center;*/
+      
+        height: 121px;
+        margin: 3px;
 
     }
-    .activit_left img{
-        height: 137px;
-        width:98%;
+    .milieu{
+        width:350%;
+        height:190px;
+        margin-bottom:20px;
+        border-top-left-radius: 36px;
+        border-top-right-radius: 36px;
+        box-shadow: #F2F2F2 1px 0px 0px 1px;
+    }
+    .a{
+        margin-left:-9px;
+        margin-top:38px;
     }
     .activit_center{
         display:flex;
-        /*flex-direction: column;*/
-        flex:50%;
-        /*width:99%;*/
+        flex:50%;  
     }
     .center{
-        height: 185px;
-        width: 96%;
-       /* justify-content: center;*/
-       margin-left:10px;
-        
+        height: 131px;
+        width: 100%;
+        /*margin-left:0px;
+        margin-right:0px;*/
     }
-    .center img{
-       width:98%; 
-    }
-
     .activit_text{
-        margin-top:5px;
+        margin-top:25px;
+    }
+    .actilef{
+        margin-top:27px;   
+    }
+    .line2a{
+        margin-bottom:-53px;
     }
     
 }

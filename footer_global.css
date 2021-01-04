@@ -4,9 +4,12 @@
 {
     display: flex;
     justify-content: flex-start;
-    padding-top: 25px;
+    padding-top: 1px;
     background-color: #F2F2F2;
        
+}
+.footer_global{
+    margin-top:10px;
 }
 
 footer h1
@@ -18,7 +21,7 @@ footer h1
 
 .footer_text{
     margin-right: 160px;
-    padding: 31px;
+    padding: 5px;
 }
 .strfoo{
    margin:14px;
@@ -33,10 +36,8 @@ footer h1
 
     } 
     .strfoo{
-        margin-top:10px;
-        /*font-weight: bold;*/
+        margin-top:43px;
         font-size:medium;
-        /*margin-right:10px*/
         margin-left:-20px;
     }
     

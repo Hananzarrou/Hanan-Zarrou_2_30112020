@@ -41,26 +41,6 @@ nav a:hover
         width: auto;
     }
 
-      h1{
-        text-align:center;
-        width:48%;
-        margin-left:50px;
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        font-size:1em;
-        padding: 14px;
-    }
-    h2{
-        padding:8px;
-        text-align:center;
-        width:67%;
-        margin-left:22px;
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        font-size:1em;
-    }
     .titre_principal{
         display:flex;
         flex-direction:column;
@@ -69,7 +49,7 @@ nav a:hover
         margin-right: 141px;
     }
     nav{
-        margin-left:7%
+        margin-left:21%
     }
     ul li:nth-child(1){
         border-bottom: 3px solid;
@@ -87,6 +67,7 @@ nav a:hover
     }
     .logo img{
         display:flex;
-        margin-right: 52px;
+        justify-content:flex-start;
+        margin-right: 128px;
     }
 }

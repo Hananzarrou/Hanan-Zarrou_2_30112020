@@ -157,7 +157,7 @@
 @media screen and (max-width: 780px){
     .filters_bar{
         flex-wrap:wrap;
-        margin-left: 20px;
+        margin-left: 60px;
         margin-right: 20px;
         
     }

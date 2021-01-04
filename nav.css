@@ -49,21 +49,31 @@ nav a:hover
         margin-right: 141px;
     }
     nav{
-        margin-left:21%
+        margin-left:15%
+    }
+    nav li{
+        margin-right:0px;
     }
     ul li:nth-child(1){
         border-bottom: 3px solid;
         color:#0065FC;
-        margin-left:-1px;
+        margin-left:1px;
+        text-align:center;
+        width:200px;
+        /*text-decoration:underline;
+        width:*/
+
     }
     ul li:nth-child(2){
         border-bottom: 3px solid;
         color:#F2F2F2;
-        margin-left:19px;
+        width:210px;
+        text-align:center;
     }
     ul li:nth-child(3){
         margin-top:-76px;
         margin-left:-87px;
+        font-weight: bold;
     }
     .logo img{
         display:flex;

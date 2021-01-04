@@ -77,13 +77,13 @@
         box-shadow: none;
     }
     .line1_as{
-        margin-left:-70px;
+        margin-left:2px;
         font-size: 1.4em;
         font-weight: bold;
         text-shadow: 0.5px 0.5px black;
     }
     .imgfleche{
-        margin-left:0px;
+        margin-left:180px;
     }
     
 }

@@ -15,19 +15,21 @@
 {
     /*width: 70px;*/
     height: 39px;
+    margin-left:64px;
 }
  h1
 {
      
     font-size: 1.1em;
     font-weight: bold;
-    /*margin: 0 0 0 0px;*/
+    margin-left:64px;
     text-shadow:#F2F2F2;
 }
  h2
 {
      
     font-size: 1em;
+    margin-left:64px;
     margin-top: 0px;
     font-weight: normal;
     color:gray;
@@ -60,5 +62,8 @@
         margin-left:50px;
         padding:8px;
 
+    }
+    .logo img{
+        margin-left:-5px;
     }
 }

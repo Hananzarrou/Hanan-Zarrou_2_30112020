@@ -1,7 +1,7 @@
 /* Navigation */
 
 nav{
-    margin-left:50%;
+    margin-left:58%;
 }
 nav ul
 {
@@ -13,10 +13,26 @@ nav ul
 
 nav li
 {
-    margin-right: 40px;
+    margin-right: 55px;
     /*border-bottom:5px;
     border:solid;
     color:blue;*/   
+}
+ul li:nth-child(1){
+    /*text-decoration-line: overline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #0065FC;
+    text-decoration-style: solid;
+    text-underline-offset: 1rem;*/
+    
+    
+
+
+}
+.souligne{
+    border-top: 3px solid #0065FC;
+    padding-top: 21px;
+  
 }
 nav a
 {
@@ -48,6 +64,9 @@ nav a:hover
         align-items: center;
         margin-right: 141px;
     }
+    .souligne{
+        border-top: 0px white;  
+    }
     nav{
         margin-left:15%
     }
@@ -61,7 +80,8 @@ nav a:hover
         text-align:center;
         width:200px;
         /*text-decoration:underline;
-        width:*/
+        width:
+        text-underline-offset: 1rem;*/
 
     }
     ul li:nth-child(2){

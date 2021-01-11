@@ -46,11 +46,16 @@
     height: 71%;   
 }
 
-.line1{
+#line1a{
     display:flex;
+    margin: 3px;
     padding: 10px;
     font-weight: bold;
-    margin:2% 0px 5px 20px;
+    margin-top: 2%;
+    margin-left: 15px;
+    text-shadow: 0.5px 0.5px black;
+    margin-bottom:18px;
+    
 }
 .line2a{
     display:flex;
@@ -61,7 +66,7 @@
 
 .activity{
     
-    margin-right: 20px;
+    margin-left: 20px;
     background-color:white;
     margin-bottom: 30px;
 }
@@ -103,7 +108,7 @@
     background-position: center;
     background-size: cover; 
     /*border:solid black;*/
-    height: 114px;
+    height: 140px;
     justify-content: space-between;
     width: 101%;
     display:flex;
@@ -114,8 +119,8 @@
     border-top-left-radius: 32px;
 }
 .milieu{
-    width: 210%;
-    height: 158px;
+    width: 230%;
+    height: 195px;
     border: solid rgb(242 242 242);
     margin-bottom: 55px;
     border-bottom-left-radius: 31px;
@@ -150,9 +155,10 @@
         flex-direction:column;
         justify-content: center;
     } 
-    .line1{
-        margin:2% 0px 17px 43px;
+    #line1a{
+        margin:-2% 0px 17px 25px;
         font-size: 1.4em;
+        font-weight: bold;
     }
     .blocA{
         flex-direction: column;
@@ -165,20 +171,20 @@
         justify-content: center;  
     }
     .partie1{
-        margin-left:40px;
-        width:83%;
+        margin-left:30px;
+        width:81%;
         height:197px;
         margin-bottom:21px;
     }
     .partie2{
-        Width:83%;
+        Width:84%;
         height:197px;
-        margin-left:20px;
+        margin-left:-3px;
         margin-bottom:-15px;
         
     }
     .activit_left{
-      
+        
         height: 121px;
         margin: 3px;
 
@@ -190,6 +196,7 @@
         border-top-left-radius: 36px;
         border-top-right-radius: 36px;
         box-shadow: #F2F2F2 1px 0px 0px 1px;
+        margin-left:-4px;
     }
     .a{
         margin-left:-9px;
@@ -198,6 +205,10 @@
     .activit_center{
         display:flex;
         flex:50%;  
+    }
+    .activit_center2{
+        width:24%;
+        margin-left:8px;
     }
     .center{
         height: 131px;
@@ -214,5 +225,6 @@
     .line2a{
         margin-bottom:-53px;
     }
+    
     
 }

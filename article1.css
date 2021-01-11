@@ -10,7 +10,7 @@ section
 .article1{
     /*display:flex;*/
     text-align: justify;
-    border-radius: 1%;
+    border-radius: 3%;
     /*flex-direction: column;*/
     /*align-content: space-around;*/
     /*flex-wrap:wrap ;*/
@@ -21,13 +21,14 @@ section
     margin-left: 20px;  
     height:60%; 
 }
-.line1{
+#line1{
     display:flex;
     margin: 3px;
     padding: 10px;
     font-weight: bold;
     margin-top: 2%;
-    margin-left: 15px;
+    margin-left: 36px;
+    text-shadow: 0.5px 0.5px black;
 }
 .photo_etoile{
 margin:2px;
@@ -62,7 +63,7 @@ font-size:small;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 180px;
+    height: 216px;
     width: 30%;
     margin:6px;
     padding:1px;
@@ -71,12 +72,20 @@ font-size:small;
     background-color: white;
     font-style: bold;
 }
+
+.accomodation:hover{
+    text-decoration: none;
+    background-color:#DEEBFF;
+    padding:10px;
+    border-radius: 20px;
+}
+
 .img_col{ 
     display:flex;
     flex-direction: column;
     /*background-image: url("auber_canne.jpg");*/
     width: 94%;
-    height: 40%;
+    height: 57%;
    border-radius: 31px;
     padding: 5px;
     margin:2px;
@@ -127,7 +136,7 @@ font-size:small;
     margin-left: 12px;
 }
 .colmobil{
- margin-top:100px;   
+ margin-top:131px;   
 }
 
 @media screen and (max-width: 780px){
@@ -202,6 +211,7 @@ font-size:small;
     }
     .contenair1{
         margin-top:7px;
+    
     }
     .photo_etoile{
         margin-bottom:11px;
@@ -209,6 +219,7 @@ font-size:small;
     .text_bas {
         margin-left:14px;
         font-size: 1.2em;
+        font-weight: bold;
       
     }
     .col1{
@@ -227,6 +238,10 @@ font-size:small;
         width:180px;
         /*margin-top:-5px;*/
     }
+    .aubca{
+        width:220px;
+        
+    }
     .line3{
         margin-top: -11px; 
      
@@ -237,10 +252,15 @@ font-size:small;
         /*flex-direction:column;
         width:400px;*/
     } 
-    .line1{
-        font-size: 1.4em;
+    #line1{
+        /*display: flex;*/
+        margin: 10px;
+        padding: 10px;
         font-weight: bold;
-        text-shadow: 0.5px 0.5px black;
+        margin-top: 2%;
+        margin-left: 33px;
+        font-size: 1.4em;
+        /*text-shadow: black 0.5px 0.5px;*/
     }
-      
+       
 }

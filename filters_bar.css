@@ -1,6 +1,7 @@
 .filters_bar{
     display:flex;
-    margin-left:64px;
+    /*margin-left:23px;*/
+
     
   
 }
@@ -18,6 +19,11 @@
     border-style: solid;  
     border-color: #F2F2F2;   
 }
+
+.filters_economi:hover{
+    background:yellow;
+
+}
 .filters_economi button{
     display:flex;
     justify-content: center;
@@ -29,8 +35,15 @@
      border-bottom-right-radius: 5em 5em;
      margin-right:23px;
      width: 111px;
-     text-align: center;     
+     text-align: center; 
+    
 }
+.filters_economi button:hover{
+    background:yellow;  
+}
+
+
+
 .filters_economi_icon{
     display:flex;
     justify-content: center;
@@ -44,9 +57,6 @@
 }
 .filters_famili{
     display: flex;
-    /*border-block-color: #F2F2F2;
-    border-block-start-style: solid;
-    border-block-end-style: solid;*/
     border-top-right-radius: 2em;
     border-bottom-right-radius: 2em;
     border-top-left-radius: 2em;
@@ -54,6 +64,9 @@
     margin-right: 23px;
     border-style: solid;  
     border-color: #F2F2F2; 
+}
+.filters_famili:hover{
+    background:#0065FC;
 }
 .filters_famili_icon{
     display:flex;
@@ -79,12 +92,13 @@
      width: 111px;
      text-align: center;     
 }
+.filters_famili button:hover{
+    background:#0065FC;
+}
+
 
 .filters_romantic{
     display: flex;
-    /*border-block-color: #F2F2F2;
-    border-block-start-style: solid;
-    border-block-end-style: solid;*/
     border-top-right-radius: 2em;
     border-bottom-right-radius: 2em;
     border-top-left-radius: 2em;
@@ -93,6 +107,10 @@
     border-style: solid;  
     border-color: #F2F2F2;
 }
+.filters_romantic:hover{
+    background:pink;
+}
+
 .filters_romantic button{
     display:flex;
    justify-content: center;
@@ -106,6 +124,9 @@
     width: 111px;
     text-align: center;     
 }
+.filters_romantic button:hover{
+    background:pink;
+}
 .filters_romantic_icon{
     display:flex;
     justify-content: center;
@@ -118,9 +139,6 @@
 }
 .filters_animau{
     display: flex;
-    /*border-block-color: #F2F2F2;
-    border-block-start-style: solid;
-    border-block-end-style: solid;*/
     border-top-right-radius: 2em;
     border-bottom-right-radius: 2em;
     border-top-left-radius: 2em;
@@ -129,6 +147,15 @@
     border-style: solid;  
     border-color: #F2F2F2;
 }
+.filters_animau:hover{
+    background:rgb(133, 247, 133);
+}
+.filters_animau button:hover{
+    background:rgb(133, 247, 133);
+}
+
+
+
 .filters_animau button{
     display:flex;
    justify-content: center;
@@ -159,28 +186,62 @@
         flex-wrap:wrap;
         margin-left: 60px;
         margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+
         
     }
     .filters_text{
         width: 62%;
+        margin-right:120px;
+        font-size:1.2em;
+        margin-bottom:10px;
     }
     .filters_economi{
         margin-bottom: 10px;
         width: 167px;
-        /*margin-left:10px;*/
+        margin-right:10px;
+        
     }
+    .filters_economi button{
+        font-weight:bold ;
+        font-size:1em;
+        margin-left:8px;
+    }
+
+    
+
     
     .filters_famili{
         margin-bottom: 10px;
         width: 141px; 
     }
+    .filters_famili button{
+        font-weight:bold ;
+        font-size:1em;
+    }
     .filters_romantic{
         margin-bottom: 10px;
-        width: 170px;  
+        width: 170px; 
+        margin-right:172px; 
+    }
+    .filters_romantic button{
+        font-weight:bold ;
+        font-size:1em;
+        margin-left:8px;
+    }
+    .filters_animau button{
+        font-weight:bold ;
+        font-size:1em;
+        margin-left:8px;
+        width:170px;
+
     }
     .filters_animau{
         margin-bottom: 10px;
-        width: 230px;   
+        width: 230px;
+        margin-right:115px; 
+
     }
     .info_text{
         width:300px;

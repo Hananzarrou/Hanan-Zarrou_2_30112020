@@ -23,13 +23,13 @@ section{
 .bloc_page
 {
     width: 95%;
-    margin: auto;
+    /*margin: auto;*/
 }
 section h1, footer h1, nav 
 {
     
     font-weight: normal;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 

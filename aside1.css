@@ -5,12 +5,13 @@
     align-content: space-around;
     position: relative;
     background-color:#F2F2F2;
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
+    /*box-shadow: 0px 2px 5px #1c1a19;*/
+    border-radius: 21px;
     padding: 10px;
     color: black;
     font-size: 0.9em;
     /*height: 70%;*/
+    margin-left:29px;
 }
 
 .popularity{
@@ -38,6 +39,8 @@
     display:flex;
     justify-content: space-around;
     margin:20px;
+    margin-right:20px;
+    text-shadow: 0.5px 0.5px black;
 }
 /*.line2a{
     display:flex;
@@ -54,6 +57,7 @@
 
 .title_aside{
     font-weight: bold;
+    margin-right:130px;
 }
 .col1{
     display:flex;
@@ -63,7 +67,7 @@
 @media screen and (max-width: 780px){
     .aside1{
         box-shadow: none;
-        border-radius:none;
+        border-radius:0px;
         padding: 15px;
         margin-bottom: 25px;
     }
@@ -73,7 +77,6 @@
     
     .aside1{
         margin-bottom:3px;
-        border:0;
         box-shadow: none;
     }
     .line1_as{
@@ -83,8 +86,29 @@
         text-shadow: 0.5px 0.5px black;
     }
     .imgfleche{
-        margin-left:180px;
+        margin-left:170px;
     }
+    .title_aside{
+        margin-right:2px;
+    }
+    .popularity{
+        width: 94%;
+        height: 155px;
+    }
+    .popularity img{
+        height: 96%;
+    }
+    
+    .col1{
+        margin:15px;
+    }
+    .contenair1{
+        font-weight: bold;
+        font-size:1.2em;
+    }
+    
+    
+
     
 }
 

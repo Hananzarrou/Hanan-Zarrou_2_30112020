@@ -14,16 +14,10 @@ nav ul
 nav li
 {
     margin-right: 55px;
-    /*border-bottom:5px;
-    border:solid;
-    color:blue;*/   
+ 
 }
 ul li:nth-child(1){
-    /*text-decoration-line: overline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #0065FC;
-    text-decoration-style: solid;
-    text-underline-offset: 1rem;*/
+    
     
     
 
@@ -49,7 +43,7 @@ nav a:hover
 .titre_nav{
     display:flex;
    
-   /*align-content: flex-end*/
+   
 
 }
 @media screen and (max-width: 780px){
@@ -76,28 +70,26 @@ nav a:hover
     ul li:nth-child(1){
         border-bottom: 3px solid;
         color:#0065FC;
-        margin-left:1px;
+        margin-left:23px;
         text-align:center;
         width:200px;
-        /*text-decoration:underline;
-        width:
-        text-underline-offset: 1rem;*/
 
     }
     ul li:nth-child(2){
         border-bottom: 3px solid;
         color:#F2F2F2;
-        width:210px;
+        width:220px;
         text-align:center;
     }
     ul li:nth-child(3){
-        margin-top:-76px;
-        margin-left:-87px;
+        margin-top: -55px;
+        margin-left: -95px;;
         font-weight: bold;
     }
     .logo img{
         display:flex;
         justify-content:flex-start;
         margin-right: 128px;
+        margin-top:2px;
     }
 }

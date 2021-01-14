@@ -156,9 +156,9 @@
         justify-content: center;
     } 
     #line1a{
-        margin:-2% 0px 17px 25px;
+        margin-left:0px;
         font-size: 1.4em;
-        font-weight: bold;
+        /*font-weight: bold;*/
     }
     .blocA{
         flex-direction: column;
@@ -171,16 +171,19 @@
         justify-content: center;  
     }
     .partie1{
-        margin-left:30px;
-        width:81%;
+        width: 99%;
+        margin-left: -5px;
         height:197px;
         margin-bottom:21px;
     }
     .partie2{
-        Width:84%;
+        /*Width:84%;*/
         height:197px;
-        margin-left:-3px;
+        /*margin-left:-3px;*/
         margin-bottom:-15px;
+        Width: 97%;
+        margin-left: -29px;
+        margin-right: 25px;
         
     }
     .activit_left{
@@ -190,16 +193,20 @@
 
     }
     .milieu{
-        width:350%;
+        /*width:350%;*/
+        width: 411%;
+        margin-left: -29px;
+        margin-right: 5px;
         height:190px;
         margin-bottom:20px;
         border-top-left-radius: 36px;
         border-top-right-radius: 36px;
         box-shadow: #F2F2F2 1px 0px 0px 1px;
-        margin-left:-4px;
+        /*margin-left:-4px;*/
+
     }
     .a{
-        margin-left:-9px;
+        margin-left: -45px;
         margin-top:38px;
     }
     .activit_center{

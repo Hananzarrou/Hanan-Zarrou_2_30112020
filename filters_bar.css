@@ -1,7 +1,7 @@
 .filters_bar{
     display:flex;
     /*margin-left:23px;*/
-    margin-left:17px;
+    margin-left:23px;
 
     
   
@@ -182,13 +182,14 @@
     padding: 14px;
     background-color: #DEEBFF; 
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 736px){
     .filters_bar{
+        display:flex;
         flex-wrap:wrap;
-        margin-left: 60px;
-        margin-right: 20px;
-        justify-content: center;
-        align-items: center;
+        margin-left: 23px;
+        /*margin-right: 20px;*/
+        /*justify-content: center;
+        align-items: center;*/
 
         
     }
@@ -201,7 +202,7 @@
     .filters_economi{
         margin-bottom: 10px;
         width: 167px;
-        margin-right:10px;
+        margin-right:13px;
         
     }
     .filters_economi button{
@@ -209,13 +210,9 @@
         font-size:1em;
         margin-left:8px;
     }
-
-    
-
-    
     .filters_famili{
         margin-bottom: 10px;
-        width: 141px; 
+        width: 162px; 
     }
     .filters_famili button{
         font-weight:bold ;
@@ -251,6 +248,7 @@
         height: 12px;
         margin-left:21px;  
     }
+    
 }
 
 

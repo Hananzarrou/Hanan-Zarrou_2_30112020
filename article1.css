@@ -69,6 +69,10 @@ font-size:small;
     background-color: white;
     font-style: bold;
 }
+.accomodation a{
+    text-decoration:none;
+    color:black;
+}
 
 .accomodation:hover{
     text-decoration: none;
@@ -142,16 +146,19 @@ font-size:small;
         flex-direction:column;
         background-color:white;
         border:0; 
-        margin-bottom:10px;   
+        margin-bottom:10px; 
+        width:101%;  
     }
     .accomodation{
         flex:100%;
-      margin-bottom:20px;
-      width:130%;
-      height:197px;
-      margin-top:0px;
-      border:solid #F2F2F2;
-      box-shadow: 2px 2px 2px#F2F2F2;
+        margin-bottom:20px;
+        width: 102%;
+        height: 207px;
+        margin-right: 14px;
+        margin-left: -31px;
+        margin-top:0px;
+        border:solid #F2F2F2;
+        box-shadow: 2px 2px 2px#F2F2F2;
     }
     .img_col{
         width:98%;
@@ -205,6 +212,7 @@ font-size:small;
     .line4{
         margin-top:-30px;
         font-weight:bold;
+        margin-left: -5px;
     }
     .contenair1{
         margin-top:7px;
@@ -250,12 +258,11 @@ font-size:small;
         width:400px;*/
     } 
     #line1{
-        /*display: flex;*/
-        margin: 10px;
         padding: 10px;
-        font-weight: bold;
-        margin-top: 2%;
-        margin-left: 33px;
+        /*font-weight: bold;*/
+        margin: 9px;
+        margin-top: 6%;
+        margin-left: -16px;
         font-size: 1.4em;
         /*text-shadow: black 0.5px 0.5px;*/
     }

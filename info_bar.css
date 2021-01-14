@@ -1,6 +1,7 @@
 .info_bar{
 display:flex;
-margin-left:23px;
+margin-left:31px;
+margin-top:10px;
 }
 .info_icon{
 display:flex;
@@ -21,7 +22,8 @@ padding:5px;
 } 
 @media screen and (max-width: 780px){
     .info_bar{
-        margin-left:40px;
+        margin-left: 8px;
+        margin-top: 22px;
     }
 }
 

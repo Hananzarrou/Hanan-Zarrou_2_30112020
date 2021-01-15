@@ -40,6 +40,11 @@ strong{
 .size{
     font-size:small;
 }
+@media screen and (max-width: 760px){
+    body{
+        margin:0;
+    }
+}
 
 
 

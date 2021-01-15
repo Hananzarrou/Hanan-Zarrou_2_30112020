@@ -2,6 +2,7 @@
 display:flex;
 margin-left:31px;
 margin-top:10px;
+
 }
 .info_icon{
 display:flex;
@@ -16,7 +17,9 @@ margin-right: 13px;
 padding:5px;
 } 
 .info_text{
-    color:gray;
+    font-size: 0.9em;
+    color:black;
+    font-weight: normal;
     padding: 5px;
 
 } 

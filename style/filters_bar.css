@@ -183,7 +183,12 @@
     padding: 14px;
     background-color: #DEEBFF; 
 }
-@media screen and (max-width: 719px){
+@media screen and (max-width: 785px){
+    .filters_bar{
+        display:flex;
+    }
+}
+@media screen and (max-width: 701px){
     .filters_bar{
         display:flex;
         flex-wrap:wrap;

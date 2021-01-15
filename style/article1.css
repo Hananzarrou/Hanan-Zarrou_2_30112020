@@ -96,24 +96,24 @@ font-size:small;
     background-size: cover;  
 }
 .premier{
-    background-image: url("/images/auber_canne.jpg");
+    background-image: url(../images/auber_canne.jpg);
     
 }
 .deuxieme{
-    background-image: url("/images/hotel_port.jpg");   
+    background-image: url(../images/hotel_port.jpg);   
 }
 .troisieme{
-    background-image: url("/images/hotel_mouet.jpg");     
+    background-image: url(../images/hotel_mouet.jpg);     
 }
 .premier2rang{
-    background-image: url("/images/hotel_mer.jpg");     
+    background-image: url(../images/hotel_mer.jpg);     
 } 
 
 .deuxieme2rang{
-    background-image: url("/images/aubeg_panier.jpg");       
+    background-image: url(../images/aubeg_panier.jpg);       
 }
 .troisieme2rang{
-    background-image: url("/images/hotel_amina.jpg");    
+    background-image: url(../images/hotel_amina.jpg);    
 }
 .hm img{
     height:30%;

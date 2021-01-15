@@ -1,6 +1,7 @@
 .search_bar{
     display:flex; 
-    margin-left:23px;    
+    margin-left:23px;
+    margin-bottom:30px;    
 }
 .localisation{
     display:flex;
@@ -53,8 +54,10 @@
     .search_bar{
         justify-content: center;
         align-items:center;
+        margin-top:20px;
         margin-right:40px;
-        margin-bottom:10px;
+        
+        
         
     } 
     .localisation{

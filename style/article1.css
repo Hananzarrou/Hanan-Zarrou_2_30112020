@@ -67,7 +67,7 @@ font-size:small;
     border-color: rgb(87, 84, 84);
     border-radius: 31px;
     background-color: white;
-    font-style: bold;
+    font-weight:bold;
 }
 .accomodation a{
     text-decoration:none;
@@ -84,13 +84,11 @@ font-size:small;
 .img_col{ 
     display:flex;
     flex-direction: column;
-    /*background-image: url("auber_canne.jpg");*/
-    width: 94%;
+     width: 94%;
     height: 57%;
-   border-radius: 31px;
+    border-radius: 31px;
     padding: 5px;
     margin:2px;
-    /*margin-right: -1px;*/
     border: none;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -98,24 +96,24 @@ font-size:small;
     background-size: cover;  
 }
 .premier{
-    background-image: url("auber_canne.jpg");
+    background-image: url("/images/auber_canne.jpg");
     
 }
 .deuxieme{
-    background-image: url("hotel_port.jpg");   
+    background-image: url("/images/hotel_port.jpg");   
 }
 .troisieme{
-    background-image: url("hotel_mouet.jpg");     
+    background-image: url("/images/hotel_mouet.jpg");     
 }
 .premier2rang{
-    background-image: url("hotel_mer.jpg");     
+    background-image: url("/images/hotel_mer.jpg");     
 } 
 
 .deuxieme2rang{
-    background-image: url("aubeg_panier.jpg");       
+    background-image: url("/images/aubeg_panier.jpg");       
 }
 .troisieme2rang{
-    background-image: url("hotel_amina.jpg");    
+    background-image: url("/images/hotel_amina.jpg");    
 }
 .hm img{
     height:30%;
@@ -131,7 +129,7 @@ font-size:small;
 }
 .contenair1_text{
     font-size:small;
-    color:gray;
+    color:rgb(63, 62, 62);
     margin:2px;
     padding: 2px;
     margin-left: 12px;
@@ -140,7 +138,7 @@ font-size:small;
  margin-top:131px;   
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 803px){
     .article1{
         display:flex;
         flex-direction:column;

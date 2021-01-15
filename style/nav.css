@@ -7,7 +7,7 @@ nav ul
 {
     list-style-type: none;
     display: flex;  
-    margin:top; 
+    /*margin:top;*/ 
 }
 
 
@@ -73,6 +73,7 @@ nav a:hover
         margin-left:23px;
         text-align:center;
         width:200px;
+        padding:10px;
 
     }
     ul li:nth-child(2){
@@ -80,6 +81,7 @@ nav a:hover
         color:#F2F2F2;
         width:220px;
         text-align:center;
+        padding:10px;
     }
     ul li:nth-child(3){
         margin-top: -55px;

@@ -2,28 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="nav.css" />
-    <link rel="stylesheet" href="search_bar.css" />
-    <link rel="stylesheet" href="filters_bar.css" />
-    <link rel="stylesheet" href="info_bar.css" />
-    <link rel="stylesheet" href="article1.css" />
-    <link rel="stylesheet" href="aside1.css" />
-    <link rel="stylesheet" href="activity.css" />
-    <link rel="stylesheet" href="footer_global.css" />
-    <!--<link rel="stylesheet" media="all end"(max-width:1024px) href="small_resolution.css"/>-->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/nav.css" />
+    <link rel="stylesheet" href="style/search_bar.css" />
+    <link rel="stylesheet" href="style/filters_bar.css" />
+    <link rel="stylesheet" href="style/info_bar.css" />
+    <link rel="stylesheet" href="style/article1.css" />
+    <link rel="stylesheet" href="style/aside1.css" />
+    <link rel="stylesheet" href="style/activity.css" />
+    <link rel="stylesheet" href="style/footer_global.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/3d8600bd75.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
-<header>
+
+
+<body>
+    <header>
     
         <div class="titre_principal">
             <div class="logo" >
-                <img src="Reservia.png" alt="Logo de Reservia" /><br><br>
+                <img src="images/Reservia.png" alt="Logo de Reservia" />
                  
             </div>
             <nav>
@@ -35,28 +37,23 @@
                 </ul>
             </nav>
         </div>   
-</header><br><br>
-
-<body>
+    </header>
     <section>
             <article class="articl">
 
                 <h1>Trouvez votre hébergment pour des vacances de rêves</h1>   
-                <h2>En plein centre ville ou en plein nature</h2>
+                <h3>En plein centre ville ou en plein nature</h3>
 
                 <div class="search_bar">
                     <div class="localisation">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <input type="text" value="Marseille, France"></input>
+                    <input type="text" value="Marseille, France">
                     <button>Rechercher</button>
                     <div class="search">
                         <i class="fas fa-search tas"></i>
                     </div>
                 </div>
-                
-                
-                <br>
                 
                 <div class="filters_bar" >
                 <div class="filters_text">
@@ -102,7 +99,7 @@
                         </button><br><br>
     
                 </div>
-                </div><br><br> 
+                </div>
 
                 <div class="info_bar" >
                 <div class="info_icon">
@@ -252,7 +249,7 @@
                     <div class="popularity">
                         
                             
-                            <img src="hotel_soleil.jpg"alt= ""/>
+                            <img src="images/hotel_soleil.jpg" alt="hôtel soleil"/>
                             
                             <div class="col1">
                                 <div class="contenair1">Hôtel le soleil du matin</div>
@@ -272,7 +269,7 @@
                 <div class="line3_as">
                     <div class="popularity">
                         
-                            <img src="coeur_eau.jpg"alt= ""/>
+                            <img src="images/coeur_eau.jpg" alt="hôtel coeur eau"/>
                             <div class="col1">
                                 <div class="contenair1">Au coeur de l'eau <br/>Chambres d'hôtes</div>
                                 <div class="contenair1_text">Nuit à partir de 71<strong>€</strong></div>
@@ -290,7 +287,7 @@
                 <div class="line3_as">
                     <div class="popularity">
                         
-                            <img src="hotel_bleu_blanc.jpg"alt= ""/>
+                            <img src="images/hotel_bleu_blanc.jpg" alt="hôtel bleu blanc"/>
                             <div class="col1">
                                 <div class="contenair1">Hôtel Tout Blanc et Bleu</div>
                                 <div class="contenair1_text">Nuit à partir de 68<strong>€</strong></div>
@@ -383,36 +380,27 @@
 
         </section>
     </div>    
-        <footer class="footer_global">
-            <div class="footer1">
-
-                <div class="footer_text">
-                    <h1><strong class="strfoo">Apropos</strong></h1>
+    <footer class="footer_global">
+        <div class="footer1">
+            <div class="footer_text">
+                    <h2><strong class="strfoo">Apropos</strong></h2>
                     <div class="contenair1_text fo">Fonctionnement du site</div>
                     <div class="contenair1_text fo">Conditions génèrale de vente</div>
                     <div class="contenair1_text fo">Données et Confidentialité</div>
-                </div>
-                <div class="footer_text">
-                    <h1><strong class="strfoo">Nos hébergements</strong></h1>
+            </div>
+
+            <div class="footer_text">
+                    <h2><strong class="strfoo">Nos héberegements</strong></h2>
                     <div class="contenair1_text fo">Charte qualité </div>
                     <div class="contenair1_text fo">Soumettre votre hôtel</div>
-                </div>
-            
-            
-                <div class="footer_text">
-                    <h1><strong class="strfoo">Assistance</strong></h1>
+            </div>
+
+            <div class="footer_text">
+                    <h2><strong class="strfoo">Assistance</strong></h2>
                     <div class="contenair1_text fo">Centre d'aide</div>
                     <div class="contenair1_text fo">Nous contacter</div>    
-                </div>
-                
-            </div>
-            
-        </div>
-            
-        </footer>
-
-    
-
-    
+            </div>  
+        </div>   
+    </footer>   
 </body>
 </html>

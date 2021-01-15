@@ -85,10 +85,10 @@
     margin-left: -1px;  
 }
 .un{
-    background-image: url("vieuxport.jpg");
+    background-image: url("/images/vieuxport.jpg");
 }
 .deux{
-    background-image: url("parcnational.jpg");
+    background-image: url("/images/parcnational.jpg");
     
 }
 
@@ -133,20 +133,20 @@
 }
 
 .one{
-    background-image:url("fortpomeg.jpg");
+    background-image:url("/images/fortpomeg.jpg");
     margin-bottom:20px;
 }
 .two{
-    background-image:url("ilesfriol.jpg");
+    background-image:url("/images/ilesfriol.jpg");
     margin-bottom:20px;  
 }
 .acc{
-    background-image:url("notredame.jpg");
+    background-image:url("/images/notredame.jpg");
     margin-bottom:20px;
    
 }
 .acd{
-    background-image:url("parclongcha.jpg");
+    background-image:url("/images/parclongcha.jpg");
     margin-bottom:20px; 
 }
 

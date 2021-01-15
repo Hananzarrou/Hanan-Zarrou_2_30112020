@@ -2,6 +2,7 @@
     display:flex;
     /*margin-left:23px;*/
     margin-left:23px;
+    margin-bottom:30px;
 
     
   
@@ -182,16 +183,11 @@
     padding: 14px;
     background-color: #DEEBFF; 
 }
-@media screen and (max-width: 736px){
+@media screen and (max-width: 719px){
     .filters_bar{
         display:flex;
         flex-wrap:wrap;
-        margin-left: 23px;
-        /*margin-right: 20px;*/
-        /*justify-content: center;
-        align-items: center;*/
-
-        
+        margin-left: 23px;  
     }
     .filters_text{
         width: 62%;

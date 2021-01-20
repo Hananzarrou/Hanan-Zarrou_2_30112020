@@ -45,15 +45,17 @@
     width:22%;
     height: 71%;   
 }
+.titractivi{
+  font-size:1.2em;
+  font-weight: bold;  
+}
 
-#line1a{
+.line1a{
     display:flex;
-    margin: 3px;
-    padding: 10px;
-    font-weight: bold;
+    margin: 13px;
+    padding: 20px;
     margin-top: 2%;
     margin-left: 15px;
-    text-shadow: 0.5px 0.5px black;
     margin-bottom:18px;
     
 }
@@ -65,7 +67,8 @@
 }
 
 .activity{
-    
+    display:flex;
+    flex-direction:column;
     margin-left: 20px;
     background-color:white;
     margin-bottom: 30px;

@@ -1,20 +1,20 @@
 .info_bar{
 display:flex;
-margin-left:31px;
-margin-top:10px;
-
+margin-left:5px;
+margin-top: 5px;
+padding: 20px;
 }
 .info_icon{
 display:flex;
 justify-content:center;
 align-items: center;
-width: 13px;
+width: 8px;
+height: 8px;
 border-radius:31px;
 border:solid;
 border-color:#F2F2F2 ;
-/*background-color: none;*/ 
 margin-right: 13px; 
-padding:5px;
+padding:8px;
 } 
 .info_text{
     font-size: 0.9em;
@@ -23,7 +23,7 @@ padding:5px;
     padding: 5px;
 
 } 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1024px){
     .info_bar{
         margin-left: 8px;
         margin-top: 22px;

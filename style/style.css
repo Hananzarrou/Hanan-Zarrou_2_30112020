@@ -6,11 +6,11 @@ body
     
     font-family: 'Raleway', sans-serif;
     color: #181818;
+    /*margin:0;*/
+    
 
 }
-section{
-    display:flex;
-}
+
 .white{
     color:#0065FC;
 }
@@ -23,13 +23,15 @@ section{
 .bloc_page
 {
     width: 95%;
-    /*margin: auto;*/
+    display:flex;
+    flex-direction:column;
+    
+
 }
 section h1, footer h1, nav 
 {
     
     font-weight: normal;
-    /*text-transform: capitalize;*/
 }
 
 
@@ -40,7 +42,7 @@ strong{
 .size{
     font-size:small;
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 1024px){
     body{
         margin:0;
     }

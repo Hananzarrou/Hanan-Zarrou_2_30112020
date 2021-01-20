@@ -1,22 +1,26 @@
 .aside1{
     display: flex;
+    flex:1.2;
     flex-direction: column;
-    flex: 1.2;
-    align-content: space-around;
-    position: relative;
-    background-color:#F2F2F2;
-    border-radius: 21px;
-    padding: 10px;
-    color: black;
+    background-color: rgb(242 242 242);
+    border-bottom-left-radius: 31px; 
+    border-bottom-right-radius: 31px; 
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    color: rgb(0 0 0);
     font-size: 0.9em;
-    margin-left:29px;
+    margin-left: 15px;
+    height: 610px;
+    padding:30px;
 }
 
 .popularity{
     display:flex;
-    width: 94%;
-    height: 123px;
-    margin:6px;
+    width: 98%;
+    height: 137px;
+    margin:12px;
+    margin-left:1px;
+    margin-right:1px;
     padding:1px;
     border-radius: 31px;
     background-color: white;
@@ -26,7 +30,7 @@
 .popularity img{
    
     width: 40%;
-    height: 91%;
+    height: 94%;
     padding:5px;
     border:none;
     border-radius: 22px 0px 0px 22px; 
@@ -34,11 +38,21 @@
 
 .line1_as{
     display:flex;
-    justify-content: space-around;
+    position:relative;
+    flex-direction:column;
     margin:20px;
     margin-right:20px;
-    text-shadow: 0.5px 0.5px black;
+    /*text-shadow: 0.5px 0.5px black;*/
 }
+.titrpopy{
+    display:flex;
+    justify-content: space-between;
+}
+.lespluspopu{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 .line3_as{
     margin-top:20px;
 
@@ -47,16 +61,24 @@
     margin-top:30px;
 }
 
-.title_aside{
-    font-weight: bold;
-    margin-right:130px;
-}
 .col1{
     display:flex;
     flex-direction: column;
-
+    margin-top:15px;
 }
-@media screen and (max-width: 765px){
+.pop{
+    font-size:1em;
+}
+
+.petit{
+    font-size:0.8em; 
+    color:rgb(63, 62, 62);
+}
+@media screen and (max-width: 1024px){
+    .articaside{
+        flex-direction: column-reverse;
+    }
+    
     .aside1{
     
         margin-bottom:3px;
@@ -82,10 +104,9 @@
     }
     .imgfleche{
         margin-left:170px;
+       
     }
-    .title_aside{
-        margin-right:2px;
-    }
+    
     .popularity{
         width: 94%;
         height: 155px;

@@ -47,7 +47,7 @@ nav a:hover
 
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width:1024px){
     .bloc_page{
         width: auto;
     }
@@ -71,7 +71,7 @@ nav a:hover
     ul li:nth-child(1){
         border-bottom: 3px solid;
         color:#0065FC;
-        margin-left:23px;
+        margin-left:91px;
         text-align:center;
         width:200px;
         padding:10px;
@@ -86,8 +86,9 @@ nav a:hover
     }
     ul li:nth-child(3){
         margin-top: -55px;
-        margin-left: -95px;;
+        margin-left: -150px;;
         font-weight: bold;
+        margin-right:50px;
     }
     .logo img{
         display:flex;
@@ -95,4 +96,15 @@ nav a:hover
         margin-right: 128px;
         margin-top:2px;
     }
-}
+} 
+/*@media screen and (min-width: 990px){
+        nav{
+            margin-left:58%
+        }
+
+    }
+@media screen and (max-width: 992px){
+        nav{
+            margin-left:58%
+        }
+}*/

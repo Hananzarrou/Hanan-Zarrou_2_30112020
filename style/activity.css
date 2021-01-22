@@ -61,6 +61,7 @@
 }
 .line2a{
     display:flex;
+    flex-direction:row;
     flex:100%;
     width:100%;
     justify-content: space-between;
@@ -122,7 +123,7 @@
     border-top-left-radius: 32px;
 }
 .milieu{
-    width: 230%;
+    width: 240%;
     height: 195px;
     border: solid rgb(242 242 242);
     margin-bottom: 55px;
@@ -153,15 +154,29 @@
     margin-bottom:20px; 
 }
 
-@media screen and (max-width: 780px){
+/*@media screen and ( max-width: 1371px) and (min-width:1027px){
     .line2a{
+        display:flex;
+        flex-direction:column;
+    }
+
+}*/
+
+
+@media screen and (max-width: 1026px){
+    .titractivi{
+        font-size:1.4em;
+        margin-left: -32px;
+        font-weight: bold;
+    }
+    .line2a{
+        display:flex;
         flex-direction:column;
         justify-content: center;
     } 
-    #line1a{
+    .line1a{
         margin-left:0px;
         font-size: 1.4em;
-        /*font-weight: bold;*/
     }
     .blocA{
         flex-direction: column;
@@ -196,7 +211,7 @@
 
     }
     .milieu{
-        /*width:350%;*/
+       
         width: 411%;
         margin-left: -29px;
         margin-right: 5px;
@@ -223,8 +238,6 @@
     .center{
         height: 131px;
         width: 100%;
-        /*margin-left:0px;
-        margin-right:0px;*/
     }
     .activit_text{
         margin-top:25px;
@@ -235,6 +248,8 @@
     .line2a{
         margin-bottom:-53px;
     }
+
     
     
 }
+

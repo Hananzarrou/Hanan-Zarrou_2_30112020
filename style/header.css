@@ -79,7 +79,7 @@ h3{
     h3{
         margin-bottom:5px;
         margin-top:-10px;
-        margin-left:50px;
+        margin-left: 55px;
     }
 
     .logo img{
@@ -87,4 +87,8 @@ h3{
         margin-bottom:12px;
     }
     
+}
+@media screen and ( max-width: 1371px){
+
+
 }

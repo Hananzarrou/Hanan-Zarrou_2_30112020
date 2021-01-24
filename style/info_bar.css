@@ -29,6 +29,12 @@ padding:8px;
         margin-top: 22px;
     }
 }
+@media screen and (max-width: 768px){
+    .info_bar{
+        margin-top:-29px;
+    }
+}
+
 
 
 

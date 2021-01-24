@@ -10,7 +10,6 @@ section{
     display:flex;
     flex-direction:column;
 }
-
 .hebright{
     /*background-color: #F2F2F2;*/
     padding: 36px;
@@ -22,12 +21,10 @@ section{
     font-size: 1.2em;
     font-weight: bold;
 }
-
 .articaside{
     display:flex;
     flex-direction:row; 
 }
-
 .article1{
     display: flex;
     flex-direction: column;
@@ -39,8 +36,7 @@ section{
     flex: 3;
     background-color: rgb(242, 242, 242);
     margin-left: 20px;
-    height: 60%;
-   
+    height: 60%; 
 }
 #line1{
     display:flex;
@@ -97,7 +93,6 @@ font-size:10px;
     text-decoration:none;
     color:black;
 }
-
 .accomodation:hover{
     text-decoration: none;
     background-color:#DEEBFF;
@@ -132,7 +127,6 @@ font-size:10px;
 .premier2rang{
     background-image: url(../images/hotel_mer.jpg);     
 } 
-
 .deuxieme2rang{
     background-image: url(../images/aubeg_panier.jpg);       
 }
@@ -168,24 +162,25 @@ font-size:10px;
     }
     .hebright{
         display:block;
-        margin-left:-34px;
-        
+        margin-left:-14px;  
     }
     .article1{
         display:flex;
         flex-direction:column;
         background-color:white;
         border:0; 
-        margin-bottom:10px; 
-        width:101%;  
+        /*margin-bottom:10px;*/ 
+        /*width:101%;*/ 
+        padding:30px; 
+        margin:0;
     }
     .accomodation{
         flex:100%;
         margin-bottom:20px;
-        width: 102%;
+        width: 99%;
         height: 207px;
-        margin-right: 14px;
-        margin-left: -31px;
+        /*margin-right: 14px;*/
+       /* margin-left: -31px;*/
         margin-top:0px;
         border:solid #F2F2F2;
         box-shadow: 2px 2px 2px#F2F2F2;
@@ -207,8 +202,7 @@ font-size:10px;
     }
     .premier{
         border-bottom-left-radius:0px;
-        border-bottom-right-radius:0px;
-        
+        border-bottom-right-radius:0px;   
     }
     .deuxieme{
         border-bottom-left-radius:0px;
@@ -230,19 +224,18 @@ font-size:10px;
         border-bottom-left-radius:0px;
         border-bottom-right-radius:0px;   
     }
-
-
-
     .line3{
         display:flex;
         flex-wrap:wrap;
         margin-top:-10px;
-
     }
     .line4{
-        margin-top:-30px;
+        /*margin-top:-30px;*/
         font-weight:bold;
-        margin-left: -5px;
+        /*margin-left: -5px;*/
+       /* margin-bottom:0px;*/
+       margin:0;
+       padding:10px;
     }
     .contenair1{
         margin-top:7px;
@@ -275,7 +268,8 @@ font-size:10px;
         
     }
     .line3{
-        margin-top: -11px; 
+        /*margin-top: -11px;*/ 
+        margin:0;
      
     }
     .line2{
@@ -283,6 +277,8 @@ font-size:10px;
         flex-wrap:wrap;
         /*flex-direction:column;
         width:400px;*/
+        margin:0;
+        margin-bottom: 20px;
     } 
     #line1{
         padding: 10px;
@@ -292,6 +288,19 @@ font-size:10px;
         margin-left: -16px;
         font-size: 1.4em;
         /*text-shadow: black 0.5px 0.5px;*/
-    }
-       
+    }     
 }
+@media screen and (max-width: 760px){
+    .article1{
+        padding:60px;
+    }
+    .line1{
+        margin-top:-60px;
+    }
+    .hebright{
+        margin-bottom: 15px;
+        width:95%;
+    }
+    
+}
+

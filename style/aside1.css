@@ -13,7 +13,6 @@
     height: 610px;
     padding:30px;
 }
-
 .popularity{
     display:flex;
     width: 98%;
@@ -26,7 +25,6 @@
     background-color: white;
     font-weight: bold;       
 }
-
 .popularity img{
    
     width: 40%;
@@ -35,7 +33,6 @@
     border:none;
     border-radius: 22px 0px 0px 22px; 
 }
-
 .line1_as{
     display:flex;
     position:relative;
@@ -52,10 +49,8 @@
     font-size: 1.2em;
     font-weight: bold;
 }
-
 .line3_as{
     margin-top:20px;
-
 }
 .spc{
     margin-top:30px;
@@ -69,7 +64,6 @@
 .pop{
     font-size:1em;
 }
-
 .petit{
     font-size:0.8em; 
     color:rgb(63, 62, 62);
@@ -78,20 +72,16 @@
     .articaside{
         flex-direction: column-reverse;
     }
-    
     .aside1{
-    
         margin-bottom:3px;
         box-shadow: none;
-        width: 100%;
+        /*width: 100%;*/
         margin-left: -10px;
         border-radius:0px 0px 0px 0px;
-    
     }
     section{
         flex-direction: column-reverse;
     }
-    
     .aside1{
         margin-bottom:3px;
         box-shadow: none;
@@ -103,10 +93,8 @@
         text-shadow: 0.5px 0.5px black;
     }
     .imgfleche{
-        margin-left:170px;
-       
+        margin-left:170px;  
     }
-    
     .popularity{
         width: 94%;
         height: 155px;
@@ -121,10 +109,16 @@
     .contenair1{
         font-weight: bold;
         font-size:1.2em;
-    }
-    
-    
-
-    
+    }   
 }
+@media screen and (max-width: 768px){
+    .aside1{
+        padding:60px;
+    }
+    .lespluspopu{
+        font-size:1em;
+    }
+}
+
+
 

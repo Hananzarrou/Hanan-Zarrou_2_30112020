@@ -44,6 +44,7 @@ footer h2
     .footer1{
         flex-direction: column;
         width:100%;
+        padding:60px;
 
     } 
     .strfoo{
@@ -55,7 +56,7 @@ footer h2
     h1{
         display:flex;
         justify-content: flex-start;
-        width:100%;
+        width:70%;
         margin-left:39px;
         margin-bottom: 2px;
     }

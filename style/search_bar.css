@@ -77,9 +77,17 @@
         width:235px;
         border:solid 1px #F2F2F2;
         padding-left:17px;
+        height:56px;   
+    }
+}
+@media screen and (max-width: 419px){
+    .search{
+    width: 160px;
+    height:160px;
+    }
+    .search_bar input{
+        width:235px;
         height:56px;
-        
-        
     }
 }
 

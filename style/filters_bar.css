@@ -191,7 +191,7 @@
         margin-left: 23px;  
     }
     .filters_text{
-        width: 62%;
+        width: 100%;
         margin-right:120px;
         font-size:1.2em;
         margin-bottom:10px;
@@ -199,8 +199,7 @@
     .filters_economi{
         margin-bottom: 10px;
         width: 167px;
-        margin-right:13px;
-        
+        margin-right:13px;   
     }
     .filters_economi button{
         font-weight:bold ;
@@ -244,9 +243,32 @@
     .info_icon{
         height: 12px;
         margin-left:21px;  
+    } 
+}
+@media screen and (max-width: 764px) and (min-width:468px){
+    .filters_romantic{
+        margin-right:20px; 
+    }
+    .filters_bar{
+        padding:30px;
+    }
+}
+@media screen and (max-width:409px){
+    .filters_romantic{
+        width: 99%;
+    }
+    .filteters_famili{
+        width:95%;
+        /*margin-right:70px;*/
+    }
+    .filters_economi{
+
     }
     
+
 }
+
+
 
 
 

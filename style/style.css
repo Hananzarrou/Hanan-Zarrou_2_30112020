@@ -3,12 +3,10 @@
 /* Eléments principaux de la page */
 body
 {
-    
     font-family: 'Raleway', sans-serif;
     color: #181818;
     /*margin:0;*/
-    
-
+    overflow-x:hidden;
 }
 
 .white{

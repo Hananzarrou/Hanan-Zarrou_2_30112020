@@ -82,8 +82,8 @@
 }
 @media screen and (max-width: 419px){
     .search{
-    width: 160px;
-    height:160px;
+    width: 60px;
+    height:60px;
     }
     .search_bar input{
         width:235px;

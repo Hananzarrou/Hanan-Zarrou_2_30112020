@@ -244,6 +244,30 @@
         height: 12px;
         margin-left:21px;  
     } 
+    .filters_animau:hover{
+        background:rgb(133, 247, 133);
+    }
+    .filters_animau button:hover{
+        background:rgb(133, 247, 133);
+    }
+    .filters_romantic button:hover{
+        background:pink;
+    }
+    .filters_romantic:hover{
+        background:pink;
+    }
+    .filters_famili button:hover{
+        background:#0065FC;
+    }
+    .filters_famili:hover{
+        background:#0065FC;
+    }
+    .filters_economi button:hover{
+        background:yellow;  
+    }
+    .filters_economi:hover{
+        background:yellow;  
+    }
 }
 @media screen and (max-width: 764px) and (min-width:468px){
     .filters_romantic{
@@ -251,6 +275,30 @@
     }
     .filters_bar{
         padding:30px;
+    }
+    .filters_animau:hover{
+        background:rgb(133, 247, 133);
+    }
+    .filters_animau button:hover{
+        background:rgb(133, 247, 133);
+    }
+    .filters_romantic button:hover{
+        background:pink;
+    }
+    .filters_romantic:hover{
+        background:pink;
+    }
+    .filters_famili button:hover{
+        background:#0065FC;
+    }
+    .filters_famili:hover{
+        background:#0065FC;
+    }
+    .filters_economi button:hover{
+        background:yellow;  
+    }
+    .filters_economi:hover{
+        background:yellow;  
     }
 }
 @media screen and (max-width:409px){
@@ -261,8 +309,29 @@
         width:95%;
         /*margin-right:70px;*/
     }
-    .filters_economi{
-
+    .filters_animau:hover{
+        background:rgb(133, 247, 133);
+    }
+    .filters_animau button:hover{
+        background:rgb(133, 247, 133);
+    }
+    .filters_romantic button:hover{
+        background:pink;
+    }
+    .filters_romantic:hover{
+        background:pink;
+    }
+    .filters_famili button:hover{
+        background:#0065FC;
+    }
+    .filters_famili:hover{
+        background:#0065FC;
+    }
+    .filters_economi button:hover{
+        background:yellow;  
+    }
+    .filters_economi:hover{
+        background:yellow;  
     }
     
 

@@ -119,6 +119,24 @@
         font-size:1em;
     }
 }
+@media screen and (max-width: 414px){
+    .contenair1{
+        width:110px;
+    }
+    .col1{
+        margin:3px;
+    }
+    .popularity{
+        width:98%;
+        height: 166px;
+    }
+    .spc{
+        margin-top:22px;
+    }
+    
+
+}
+
 
 
 

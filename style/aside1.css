@@ -133,7 +133,13 @@
     .spc{
         margin-top:22px;
     }
-    
+    /*.titrpopy{
+        display:flex;
+        flex-direction:row;
+    }*/
+    .imgfleche {
+        margin-left: 99px;
+    }
 
 }
 

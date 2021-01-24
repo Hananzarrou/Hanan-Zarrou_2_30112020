@@ -301,6 +301,11 @@ font-size:10px;
 @media screen and (max-width: 414px){
     .accomodation{
         height: 213px;
+        width:120%
+    }
+    .line1{
+        width:90%;
+        font-size: 1em;
     }
 }
 

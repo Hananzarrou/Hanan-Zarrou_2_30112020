@@ -277,7 +277,26 @@
     .col1{
         margin:10px;
     }
-
 }
+@media screen and (max-width: 440px){
+    .activit_left{
+        width:92%;
+    }
+    .col1{
+        padding:0;
+        width:73%;
+    }
+    .contenair1{
+        font-size:0.8em;
+    }
+    .pop{
+        width:80px;
+    }
+    .popularity{
+        width: 120%;
+        height: 166px;
+    }
+}
+
 
 

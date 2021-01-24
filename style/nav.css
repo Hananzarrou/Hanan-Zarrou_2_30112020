@@ -97,14 +97,24 @@ nav a:hover
         margin-top:2px;
     }
 } 
-/*@media screen and (min-width: 990px){
+
+@media screen and (max-width:460px){
         nav{
-            margin-left:58%
+            margin-left:18%;
+        }
+        ul li:nth-child(3){
+            margin-left: -130px;;
+            margin-right:86px;
+        }
+        ul li:nth-child(2){
+            width:167px;
+        }
+        ul li:nth-child(1){
+            width:108px;
+        }
+        .logo img{
+            margin-left:109px;
         }
 
-    }
-@media screen and (max-width: 992px){
-        nav{
-            margin-left:58%
-        }
-}*/
+
+}

@@ -63,16 +63,17 @@
     display:flex;
     flex-direction:row;
     flex:100%;
-    width:100%;
-    justify-content: space-between;
+    /*width:100%;
+    justify-content: space-between;*/
 }
 
 .activity{
     display:flex;
     flex-direction:column;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     background-color:white;
     margin-bottom: 30px;
+    padding:30px;
 }
 .activit_left {
     background-position: center;

@@ -119,7 +119,7 @@
         font-size:1em;
     }
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 440px){
     .aside{
         padding:30px;
     }
@@ -130,7 +130,7 @@
         margin:3px;
     }
     .popularity{
-        width:98%;
+        width:110%;
         height: 166px;
     }
     .spc{

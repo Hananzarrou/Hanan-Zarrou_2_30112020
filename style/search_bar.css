@@ -44,6 +44,8 @@
         display:flex;
         justify-content: center;
         align-items: center;
+        
+        margin-left:-15px;
         background-color:#0065FC;
         width: 60px;
         height:60px;
@@ -57,10 +59,7 @@
         justify-content: center;
         align-items:center;
         margin-top:84px;
-        margin-right:40px;
-        
-        
-        
+        margin-right:40px;   
     } 
     .localisation{
         width:62px;
@@ -82,12 +81,22 @@
 }
 @media screen and (max-width: 419px){
     .search{
-    width: 60px;
-    height:60px;
+    width: 49px;
+    height:46px;
+    position:absolute;
+    margin-left:184px;
     }
     .search_bar input{
-        width:235px;
-        height:56px;
+        width:130px;
+        height:46px;
+        font-size: 0.9em;
+        /*padding-left:75px;*/
+    }
+    .localisation{
+        position:absolute;
+        width:49px;
+        height: 53px;
+        margin-right:180px;
     }
 }
 

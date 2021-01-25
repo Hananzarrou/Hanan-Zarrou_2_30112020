@@ -299,9 +299,12 @@ font-size:10px;
     } 
 }
 @media screen and (max-width: 414px){
+    .article1{
+        padding:30px;
+    }
     .accomodation{
         height: 213px;
-        width:120%
+        width:100%
     }
     .line1{
         width:90%;

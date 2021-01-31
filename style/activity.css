@@ -296,6 +296,33 @@
         width: 120%;
         height: 166px;
     }
+    .line1a{
+        width:90%;
+        font-size: 0.9em;
+    }
+    
+}
+@media screen and (max-width: 250px){
+    .partie1{
+        width:115%;
+    }
+    .partie2{
+        width:115%;
+        height:205px;
+    }
+    .milieu{
+        width:490%;
+        height: 198px;
+    }
+    .a{
+        width:460%;
+    }
+    .col1{
+        width:62%;
+    }
+    .col1{
+        margin:0px;
+    }
 }
 
 

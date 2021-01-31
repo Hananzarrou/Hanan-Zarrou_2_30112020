@@ -14,24 +14,39 @@
     padding:30px;
 }
 .popularity{
-    display:flex;
-    width: 98%;
-    height: 137px;
-    margin:12px;
-    margin-left:1px;
-    margin-right:1px;
-    padding:1px;
+    display: flex;
+    margin: 12px;
+    margin-left: 3px;
+    margin-right: 1px;
+    padding: 1px;
+    border-radius: 22px 0px 0px 22px;
+    background-color: white;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover; 
+    width:90%;
+    height:150px;   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 164px;
+    align-items: center;
+    width: 92%;
+    padding: 1px;
+    border-color: rgb(87, 84, 84);
     border-radius: 31px;
     background-color: white;
-    font-weight: bold;       
+    font-weight: bold;
 }
-.popularity img{
-   
-    width: 40%;
-    height: 94%;
-    padding:5px;
-    border:none;
-    border-radius: 22px 0px 0px 22px; 
+.marwa{
+    background-image:url(../images/hotel_soleil.jpg);
+}
+.nour{
+    background-image:url(../images/coeur_eau.jpg);
+}
+.sama{
+    background-image:url(../images/hotel_bleu_blanc.jpg);
 }
 .line1_as{
     display:flex;
@@ -68,6 +83,7 @@
     font-size:0.8em; 
     color:rgb(63, 62, 62);
 }
+
 @media screen and (max-width: 1024px){
     .articaside{
         flex-direction: column-reverse;
@@ -99,10 +115,6 @@
         width: 94%;
         height: 155px;
     }
-    .popularity img{
-        height: 96%;
-    }
-    
     .col1{
         margin:15px;
     }
@@ -128,22 +140,42 @@
     }
     .col1{
         margin:3px;
+        padding: 0;
+        width: 59%;
     }
     .popularity{
-        width:110%;
+        width:90%;
         height: 166px;
     }
     .spc{
         margin-top:22px;
     }
-    /*.titrpopy{
-        display:flex;
-        flex-direction:row;
-    }*/
     .imgfleche {
         margin-left: 99px;
     }
+    .card{
+        width:100%;
+    }
+    .lespluspopu{
+        font-size:0.9;
+    }
+    .titractivi{
+        font-size:0.9em;
+    }
 
+}
+@media screen and (max-width:355px){
+    .line1_as{
+        display: block;
+        font-size:0.9em;
+    }
+    .imgfleche{
+        margin-left:67px;
+    }
+    .lespluspopu{
+        font-size:0.9;
+    }
+    
 }
 
 

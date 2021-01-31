@@ -1,9 +1,6 @@
 .titre_principal
 {
     display: flex;
-    /*flex-direction: column;*/
-    
-
 }    
 .logo
 {
@@ -24,9 +21,7 @@
 h1{
     font-size: 1.1em;
     margin-left:23px;
-    margin-top:5px;
-   
-   
+    margin-top:5px;  
 }
 h3{
     font-size: 0.9em;
@@ -85,7 +80,11 @@ h3{
     }
     
 }
-@media screen and ( max-width: 1371px){
-
-
+@media screen and (max-width:355px){
+    .lestitres{
+        width:215px;
+    }
+    h1{
+        font-size:1em;
+    }
 }

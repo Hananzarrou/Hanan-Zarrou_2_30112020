@@ -172,7 +172,8 @@
     .filters_bar{
         display:flex;
         flex-wrap:wrap;
-        margin-left: 23px;  
+       /* margin-left: 23px;*/
+       margin-top:-29px; 
     }
     .filters_text{
         width: 100%;
@@ -332,7 +333,28 @@
     .filters_economi:hover{
         background:yellow;  
     }
-    
+}
+@media screen and (max-width: 250px){
+    .filters_economi button{
+        font-size:0.8em;
+    }
+    .filters_famili button{
+        font-size:0.8em;
+    }
+    .filters_romantic{
+        width:67%;
+    }
+
+    .filters_romantic button{
+        font-size:0.8em;
+    }
+    .filters_animau{
+        width:80%;
+    }
+
+    .filters_animau button{
+        font-size:0.8em;
+    }
 
 }
 

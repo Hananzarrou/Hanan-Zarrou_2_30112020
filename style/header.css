@@ -103,9 +103,9 @@ h3{
     }
 }
 
-@media screen and (max-width:355px){
+@media screen and (max-width:441px){
     .lestitres{
-        width:215px;
+        width:99%;
     }
     h1{
         font-size:1em;
@@ -115,5 +115,6 @@ h3{
         width:70%;
         justify-content:center;
         align-items: center;
+        margin-right: 74px;
     }
 }

@@ -303,8 +303,12 @@
     }
 }
 @media screen and (max-width:409px){
+    .filters_bar{
+        padding:0px;
+    }
+    
     .filters_romantic{
-        width: 48%;
+        width: 54%;
     }
     .filteters_famili{
         width:95%;

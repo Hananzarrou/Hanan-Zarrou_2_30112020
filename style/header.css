@@ -88,10 +88,18 @@ h3{
 }
 @media screen and (max-width:780px){
     .lestitres{
-        justify-content: center;
-        align-items: center;
+        /*justify-content: center;
+        align-items: center;*/
         display:flex;
         flex-direction: column;
+    }
+    h1{
+        width:80%;
+        margin-right:90px;
+    }
+    h3{
+        width:78%;
+        margin-right:39px;
     }
 }
 

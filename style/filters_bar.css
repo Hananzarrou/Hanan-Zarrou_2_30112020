@@ -174,7 +174,7 @@
         flex-wrap:wrap;
        /* margin-left: 23px;*/
        margin-top:-29px; 
-       margin-left:93px;
+      /* margin-left:93px;*/
     }
     .filters_text{
         width: 100%;
@@ -269,7 +269,7 @@
     width: 140px; 
     }
 
-@media screen and (max-width: 764px) and (min-width:468px){
+@media screen and (max-width: 764px) and (max-width:468px){
     .filters_romantic{
         margin-right:20px; 
         width: 170px; 

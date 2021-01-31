@@ -78,6 +78,12 @@ h3{
         margin-left:63px;
         margin-bottom:12px;
     }
+    .lestitres{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
 @media screen and (max-width:780px){

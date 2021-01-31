@@ -15,6 +15,7 @@
 }
 .popularity{
     display: flex;
+    position:relative;
     margin: 12px;
     margin-left: 3px;
     margin-right: 1px;
@@ -24,8 +25,8 @@
     font-weight: bold;
     background-position: center;
     background-size: cover; 
-    width:90%;
-    height:150px;   
+    width:40%;
+    height:155px;   
 }
 .card{
     display: flex;
@@ -41,12 +42,16 @@
 }
 .marwa{
     background-image:url(../images/hotel_soleil.jpg);
+    width:50%;
 }
 .nour{
     background-image:url(../images/coeur_eau.jpg);
+    width:71%;
+    height:154px;
 }
 .sama{
     background-image:url(../images/hotel_bleu_blanc.jpg);
+    width:54%;
 }
 .line1_as{
     display:flex;
@@ -145,7 +150,7 @@
     }
     .popularity{
         width:90%;
-        height: 166px;
+        height: 156px;
     }
     .spc{
         margin-top:22px;

@@ -34,6 +34,12 @@ padding:8px;
         margin-top:-29px;
     }
 }
+@media screen and (max-width: 460px){
+    .info_text{
+        width:400px;
+    }
+}
+
 
 
 
